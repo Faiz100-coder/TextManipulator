@@ -1,0 +1,54 @@
+body {
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .light-theme {
+    background-color: #ffffff;
+    color: #000000;
+  }
+  
+  .dark-theme {
+    background-color: #121212;
+    color: #ffffff;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .navbar-light {
+    background-color: #f8f9fa;
+    color: #000000;
+  }
+  
+  .navbar-dark {
+    background-color: #333333;
+    color: #ffffff;
+  }
+  
+  .theme-toggle-btn {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: inherit;
+  }
+  
+  textarea {
+    width: 80%;
+    margin: 20px auto;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+  }
+  
+  textarea:focus {
+    border-color: #0177f4;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
